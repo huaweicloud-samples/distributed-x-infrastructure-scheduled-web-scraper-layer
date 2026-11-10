@@ -1,0 +1,25 @@
+# Internal process documents (audit trail, not published with the practice)
+others/
+
+# Local build output and dependencies
+build/
+node_modules/
+__pycache__/
+*.py[cod]
+*.zip
+
+# Terraform local state, caches and private parameters
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfvars
+infra/*.tfvars
+!infra/terraform.tfvars.example
+
+# Runtime and editor artifacts
+*.log
+.env
+.DS_Store
+.idea/
+.vscode/
+.codeartsdoer/
