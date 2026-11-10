@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in your own values. Do not commit that file.
+region           = "cn-north-4"
+app_name         = "scheduled-web-scraper"
+obs_bucket_name  = "<your-globally-unique-bucket-name>"
+target_url       = "https://www.example.com"
+enable_timer     = true
+timer_schedule   = "0 59 6,10,14,18 * * ?"
